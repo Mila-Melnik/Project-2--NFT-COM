@@ -1,31 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+    <head>
+        <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <script src="https://kit.fontawesome.com/041c754404.js" crossorigin="anonymous"></script>
-    <title> Crypto Pets by Cami Digi</title>
-</head>
+        <link rel="stylesheet" href="assets/style.css">
+        <script src="https://kit.fontawesome.com/041c754404.js" crossorigin="anonymous"></script>
+        <title> Crypto Pets by Cami Digital</title>
+    </head>
 
-<body>
+    <body>
+        <div class="header">
+            <p class="logo">Crypto Pets NFT</p>
+            <div class="cart">
+                <i class="fa-solid fa-cart-arrow-down"></i><p id="count">0</p> 
 
-    <div class="header">
-        <p class="title"> Crypto Pets</p>
-    </div>
-<script src="assets/script.js"></script>
-
-
-<div class="h1">
-    <p class="products"> Collection</p>
-<div class="cart"> 
-    <i class="fa-solid fa-cart-arrow-down"></i><p id="count">0</p> 
 </div>
-</div>
-
-
-
-</body>
-
-<footer> &copy Cami Digital 2024</footer>
+        </div>
+        <div class="container">
+            <div id="root"></div>
+            <div class="sidebar">
+                <div class="head"><p>Collection</p></div>
+                <div id="cartItem">Your cart is empty</div>
+                <div class="foot">
+                    <h3>Total</h3>
+                    <h2 id="total">ETH 0.00</h2>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
 </html>
