@@ -61,6 +61,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
 }
+
 .sidebar{
     width: 40%;
     border-radius: 5px;
@@ -73,9 +74,12 @@ body{
     height: 40px;
     padding: 10px;
     margin-bottom: 20px;
-    display: flex;
     align-items: center;
     font-size: larger;
+}
+
+#target{
+    font-size: 30px;
 }
 
 .box{
@@ -152,4 +156,12 @@ button:hover{
 .fa-trash:hover{
     cursor: pointer;
     color: #b88b4a;
+}
+
+footer{
+    position: relative;
+}
+
+#date{
+    font-size: 10px;
 }
