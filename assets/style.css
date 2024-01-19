@@ -108,7 +108,7 @@ body{
     margin-top: 20px;
     width: 100%;
     text-align: center;
-    display: flex;
+    display: relative;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
