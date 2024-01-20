@@ -54,12 +54,13 @@ body{
     display: flex;
     width: 70%;
     margin-bottom: 20px;
+
 }
 #root{
     width: 60%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+    
 }
 
 .sidebar{
@@ -164,4 +165,12 @@ footer{
 
 #date{
     font-size: 10px;
+}
+
+media all and (max-width: 480px) {
+    .sidebar {
+        width: 80%;
+        padding: 0;
+        margin: 0;
+    }
 }
