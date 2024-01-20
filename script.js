@@ -1,3 +1,6 @@
+
+//Array of objects
+
 const product = [
     {
         id: 0,
@@ -55,9 +58,14 @@ const product = [
     }
 ];
 
+
+//Categories array with spread operator (...) Set object to remove duplicate items from  product array
+
 const categories = [...new Set(product.map((item)=>
     {return item}))]
-    let i=0;
+    let i=0; 
+    //Get HTML element with ID 'root'
+    //Iterates over each item in the categories array
 document.getElementById('root').innerHTML = categories.map((item)=>
 {
     var {image, title, price} = item;
@@ -68,13 +76,16 @@ document.getElementById('root').innerHTML = categories.map((item)=>
             </div>
         <div class='bottom'>
         <p>${title}</p>
-        <h2>ETH ${price}</h2>`+
+        <h2>ETH ${price}</h2>`+ 
         "<button onclick='addtocart("+(i++)+")'>Add to cart</button>"+
+        //Calls the addtocart function with current value of i and increments it by 1
         `</div>
         </div>`
     )
-}).join('')
+}).join('') //Joins the array of generated HTML strings into a single string.
 
+
+//shopping cart functionality
 var cart =[];
 
 function addtocart(a){
@@ -86,10 +97,12 @@ function delElement(a){
     displaycart();
 }
 
+
+//Updates display of the cart
 function displaycart(){
-    let j = 0, total=0;
+    let j = 0, total=0; 
     document.getElementById("count").innerHTML=cart.length;
-    if(cart.length==0){
+    if(cart.length==0){ 
         document.getElementById('cartItem').innerHTML = "Your cart is empty";
         document.getElementById("total").innerHTML = "ETH";
     }
@@ -107,7 +120,7 @@ function displaycart(){
                 <p style='font-size:12px;'>${title}</p>
                 <h2 style='font-size: 15px;'>ETH ${price}</h2>`+
                 "<i class='fa-solid fa-trash' onclick='delElement("+ (j++) +")'></i></div>"
-            );
+            );// Delete button with onclick attribute, calls delElement function with current (j) to increment it by 1.
         }).join('');
     }
 
