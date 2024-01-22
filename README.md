@@ -12,7 +12,7 @@ Home page
 
  <img src="screens readme/Screen1.jpeg" width=500>
 
-The website page consists of a Title on the left and, a shopping basket on the right top.
+The website page consists of a title on the left and, a shopping basket on the right top.
 The main section displays the grid of the NFTs collection with a sidebar on the right. The sidebar includes the add to cart function and the delete from card function, and counting the total sum is implemented using Javascript code.
 
  <img src="screens readme/Screen2.jpeg" width=500>
@@ -27,7 +27,7 @@ Bugs
 
 Unfixed
 
-Buttons after the first row of images containers appear to be moving down pushing the second row of images as the number of added-to-cart items reaches the bottom of the page. This issue was not fixed using CSS and will be improved at a later stage with the programming language.
+Buttons after the first row of images containers appear to be moving down pushing next rows as the number of added-to-cart items reaches the bottom of the page. This issue was not fixed using CSS and will be improved at a later stage with the programming language.
 
 Improvements
 
@@ -37,8 +37,8 @@ Validator Testing
 
 HTML
 
-The code was formatted with a Prettier code formatter. W3C validator
- and Jigsaw found trailing slashes where they should not be it was corrected and the lang attribute was added as suggested.
+The code was formatted with a Prettier code formatter.
+W3C validator and Jigsaw found trailing slashes where they should not be it was corrected and the lang attribute was added as suggested.
 
 CSS
 
@@ -48,7 +48,7 @@ Accessibility
 
 Dev tools lighthouse showed 78% accessibility and 80% in SEO recommended to use alt attributes for images.
 
-<img scr="screens readme/Screen lighthouse.jpeg" width=500>
+<img src="screens readme/Screen lighthouse.jpeg" width=500>
 
 Deployment
 
@@ -60,6 +60,7 @@ Content
 
 Coding skills were acquired from the course material.
 Javascript code for the shopping cart project specifically was learned from Learning Axis tutorials and applied.
+
 https://www.youtube.com/@learning-axis
 
 How to embed images in GitHub Readme File The WP GURU.
