@@ -10,12 +10,12 @@ Navigation
 
 Home page
 
-<img scr=“screens readme/Screen1.jpeg” width=500>
+ <img src="screens readme/Screen1.jpeg" width=500>
 
 The website page consists of a Title on the left and, a shopping basket on the right top.
 The main section displays the grid of the NFTs collection with a sidebar on the right. The sidebar includes the add to cart function and the delete from card function, and counting the total sum is implemented using Javascript code.
 
-<img scr=“screens readme/Screen2.jpeg” width=500>
+ <img src="screens readme/Screen2.jpeg" width=500>
 
 Footer specified year webpage created.
 
@@ -48,7 +48,7 @@ Accessibility
 
 Dev tools lighthouse showed 78% accessibility and 80% in SEO recommended to use alt attributes for images.
 
-<img scr=“screens readme/Screen lighthouse.jpeg” width=500>
+<img scr="screens readme/Screen lighthouse.jpeg" width=500>
 
 Deployment
 
