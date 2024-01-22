@@ -107,7 +107,7 @@ body {
   margin-top: 0px;
   width: 100%;
   text-align: center;
-  display: relative;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -158,7 +158,7 @@ button:hover {
 }
 
 footer {
-  position: flex;
+  position: static;
 }
 
 #date {
@@ -172,3 +172,4 @@ media all and (max-width: 480px) {
     margin: 0;
   }
 }
+s
